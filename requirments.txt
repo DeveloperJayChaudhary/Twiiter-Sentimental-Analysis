@@ -1,0 +1,6 @@
+pandas
+scikit-learn
+clean-text
+streamlit
+nltk
+textblob
