@@ -2,6 +2,8 @@ from textblob import TextBlob
 import pandas as pd 
 import streamlit as st
 from cleantext.sklearn import CleanTransformer
+import nltk 
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 
 st.header("Sentiment Analysis",)
