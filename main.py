@@ -48,6 +48,7 @@ with st.expander("Analyze Text"):
                             no_urls=True,replace_with_url=" ",no_emails=True,replace_with_email=" ",no_digits=True,replace_with_digit=" ",no_emoji=True,no_currency_symbols=True,replace_with_currency_symbol=" ")
         cleantext=cleaner.transform([newdoc])
         st.write(cleantext[0])
+st.write("In Input CSV tweets column name should be 'tweets'")
 with st.expander("Analyze CSV"):
     upl=st.file_uploader("Upload File")
     def score(pre):
